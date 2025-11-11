@@ -1,8 +1,6 @@
+# Janji
 
-https://github.com/user-attachments/assets/0e70be08-c047-44c2-8c68-a0f506530578
-# 🎵 Sistem Sewa Alat Musik
-
-Aplikasi web berbasis PHP untuk mengelola sistem penyewaan alat musik dengan fitur CRUD lengkap menggunakan Object-Oriented Programming (OOP) dan Prepared Statement.
+Saya Zharfan Faza Wibawa dengan NIM 2403995 mengerjakan Tugas Praktikum 7 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## 📋 Deskripsi
 
@@ -103,61 +101,6 @@ https://github.com/user-attachments/assets/e2c55829-1ad8-4805-962e-e7ed0259c2cb
 
 https://github.com/user-attachments/assets/f4162768-295c-489f-a04a-45afe3f0415a
 
-### ✅ Dashboard
-
-- Statistik total alat musik
-- Statistik total penyewa
-- Statistik total transaksi
-- Total pendapatan
-- Daftar transaksi terbaru
-
-## 🔒 Keamanan
-
-- ✅ **100% Prepared Statement** - Semua query menggunakan prepared statement untuk mencegah SQL Injection
-- ✅ **PDO (PHP Data Objects)** - Menggunakan PDO untuk database abstraction
-- ✅ **Input Validation** - Validasi input di sisi client dan server
-- ✅ **XSS Prevention** - Menggunakan `htmlspecialchars()` untuk output data
-
-## 💻 Teknologi yang Digunakan
-
-- **PHP 7.4+** - Backend logic dengan OOP
-- **MySQL** - Database management
-- **PDO** - Database connection
-- **HTML5** - Structure
-- **CSS3** - Styling dengan gradient modern
-- **JavaScript** - Client-side validation dan interactivity
-
-## 📦 Instalasi
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/username/TP7DPBO2425C1.git
-cd TP7DPBO2425C1
-```
-
-### 2. Import Database
-
-- Buka phpMyAdmin
-- Create database baru atau gunakan existing
-- Import file `database/db_sewa_alat.sql`
-
-### 3. Konfigurasi Database
-
-Edit file `config/db.php` sesuai dengan konfigurasi database Anda:
-
-```php
-private $host = "localhost";
-private $username = "root";
-private $password = "1234";  // Sesuaikan password Anda
-private $dbname = "db_sewa_alat";
-```
-
-### 4. Jalankan Aplikasi
-
-- Pastikan XAMPP/WAMP sudah running
-- Akses melalui browser: `http://localhost/TP7DPBO2425C1/`
-
 ## 🎯 Alur Kerja Aplikasi
 
 ### Flow Transaksi Sewa:
@@ -177,71 +120,3 @@ private $dbname = "db_sewa_alat";
 2. Konfirmasi delete muncul
 3. Jika OK, sistem hapus transaksi
 4. Sistem **otomatis mengembalikan stok** alat musik
-
-## 📸 Screenshot & Demo
-
-### Dashboard
-
-![Dashboard](docs/dashboard.png)
-
-- Menampilkan statistik keseluruhan
-- 4 card statistik (Total Alat, Penyewa, Transaksi, Pendapatan)
-- Tabel transaksi terbaru
-- Quick actions button
-
-### Halaman Alat Musik
-
-![Alat Musik](docs/alat_musik.png)
-
-- Form tambah/edit alat musik
-- Tabel data dengan badge stok
-- Button Edit & Hapus dengan konfirmasi
-
-### Halaman Penyewa
-
-![Penyewa](docs/penyewa.png)
-
-- Form tambah/edit penyewa
-- Tabel data penyewa lengkap
-- Validasi nomor HP
-
-### Halaman Transaksi
-
-![Transaksi](docs/transaksi.png)
-
-- Form dengan dropdown dinamis
-- Auto-calculate total harga
-- Tabel dengan JOIN data penyewa dan alat
-- Manajemen stok otomatis
-
-## 🧪 Testing
-
-Aplikasi telah diuji dengan skenario:
-
-- ✅ CRUD semua tabel berjalan normal
-- ✅ Foreign key constraint berfungsi
-- ✅ Prepared statement mencegah SQL injection
-- ✅ Auto-calculate total harga akurat
-- ✅ Manajemen stok otomatis berfungsi
-- ✅ Validasi form berjalan baik
-- ✅ Responsive design di berbagai device
-
-## 👨‍💻 Pengembang
-
-**[Nama Anda]**  
-NIM: [NIM Anda]  
-Kelas: [Kelas Anda]
-
-## 📝 Lisensi
-
-Project ini dibuat untuk keperluan tugas praktikum Desain dan Pemrograman Berorientasi Objek.
-
-## 🙏 Acknowledgments
-
-- Terima kasih kepada dosen pengampu mata kuliah DPBO
-- Dokumentasi PHP Official
-- Stack Overflow Community
-
----
-
-⭐ **Jangan lupa berikan star jika project ini membantu!**
