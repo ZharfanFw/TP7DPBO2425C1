@@ -95,6 +95,8 @@ Aplikasi ini menggunakan 3 tabel utama dengan relasi foreign key:
 - Auto-calculate total harga berdasarkan durasi
 - Manajemen stok otomatis (kurang saat sewa, kembali saat hapus)
 
+https://github.com/user-attachments/assets/f4162768-295c-489f-a04a-45afe3f0415a
+
 ### ✅ Dashboard
 
 - Statistik total alat musik
