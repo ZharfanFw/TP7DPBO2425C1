@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/0e70be08-c047-44c2-8c68-a0f506530578
 # 🎵 Sistem Sewa Alat Musik
 
 Aplikasi web berbasis PHP untuk mengelola sistem penyewaan alat musik dengan fitur CRUD lengkap menggunakan Object-Oriented Programming (OOP) dan Prepared Statement.
@@ -78,6 +80,8 @@ Aplikasi ini menggunakan 3 tabel utama dengan relasi foreign key:
 - Hapus data alat musik
 - Manajemen stok otomatis
 
+https://github.com/user-attachments/assets/0742a0af-d8d4-47a3-bd04-92510fe1527b
+
 ### ✅ CRUD Penyewa
 
 - Tambah penyewa baru
@@ -85,6 +89,8 @@ Aplikasi ini menggunakan 3 tabel utama dengan relasi foreign key:
 - Edit data penyewa
 - Hapus data penyewa
 - Validasi nomor HP
+
+https://github.com/user-attachments/assets/e2c55829-1ad8-4805-962e-e7ed0259c2cb
 
 ### ✅ CRUD Transaksi
 
